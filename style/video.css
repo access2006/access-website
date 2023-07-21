@@ -1,25 +1,33 @@
 .thumbnails{
-    width:100%;} 
+    width:100%;
+    cursor: pointer;
+} 
 .video-title{
     margin-top: 0%;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;
+    cursor: pointer;
+}
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;}
 
 .profile-picture{
     width: 40px;
-    border-radius: 25px;}
+    border-radius: 25px;
+    cursor: pointer;
+}
 
 .thumbnail-row{
     margin-bottom: 12px;
     position: relative;}
 .video-author{
     font-size: 12px;
-    color: #606060}
+    color: #606060;
+    cursor: pointer;
+}
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -27,7 +35,9 @@
     row-gap: 40px;}
 .video-stats{
     font-size: 12px;
-    color:#606060;}
+    color:#606060;
+    cursor: pointer;
+}
 .video-time{
     background-color: black;
     color:white;
